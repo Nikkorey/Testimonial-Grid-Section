@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 *,
 *::before,
 *::after {
@@ -15,4 +16,52 @@
   /* Neutral Color */
   --clr-light-gray: hsl(0, 0%, 81%);
   --clr-light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 0.8125rem;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  background-color: var(--clr-light-grayish-blue);
+}
+
+section {
+  padding: 1.5rem;
+  display: grid;
+  grid-gap: 1.25rem;
+}
+
+.card {
+  background-color: var(--clr-violet);
+  color: var(--clr-white);
+  padding: 1.875rem;
+  border-radius: 1rem;
+}
+
+.card--grayish {
+  background-color: var(--clr-grayish-blue);
+}
+
+.card--white {
+  background-color: var(--clr-white);
+  color: var(--clr-grayish-blue);
+}
+
+.card--blackish {
+  background-color: var(--clr-blackish-blue);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  border-radius: 50%;
+}
+
+.profile__desc {
+  margin-left: 1rem;
 }
