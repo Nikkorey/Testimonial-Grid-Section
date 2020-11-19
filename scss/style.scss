@@ -104,15 +104,25 @@ section {
   }
 }
 
+/* Profile */
 .profile {
   display: flex;
   align-items: center;
+
+  &__desc {
+    margin-left: 1rem;
+    color: var(--clr-light-grayish-blue);
+
+    &--dark {
+      color: var(--clr-blackish-blue);
+    }
+  }
+
+  &__status {
+    opacity: 50%;
+  }
 }
 
 .profile img {
   border-radius: 50%;
-}
-
-.profile__desc {
-  margin-left: 1rem;
 }

@@ -117,15 +117,25 @@ section {
   }
 }
 
+/* Profile */
 .profile {
   display: flex;
   align-items: center;
 }
 
-.profile img {
-  border-radius: 50%;
-}
-
 .profile__desc {
   margin-left: 1rem;
+  color: var(--clr-light-grayish-blue);
+}
+
+.profile__desc--dark {
+  color: var(--clr-blackish-blue);
+}
+
+.profile__status {
+  opacity: 50%;
+}
+
+.profile img {
+  border-radius: 50%;
 }
