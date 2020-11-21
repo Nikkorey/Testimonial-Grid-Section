@@ -30,8 +30,17 @@ body {
   line-height: 1.6;
 }
 
+h1,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 0.8125rem;
+}
+
 .heading__sec {
-  margin: 1.25rem 0;
+  margin: 0.8125rem 0;
+  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -49,7 +58,7 @@ section {
   @media #{(min-width: 1440px)} {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 350px);
-    padding: 10rem 3rem;
+    padding: 10rem 6rem;
   }
 }
 .card {
@@ -129,7 +138,7 @@ section {
   }
 
   &__name {
-    font-weight: 400;
+    font-weight: 700;
   }
   &__status {
     opacity: 50%;
@@ -138,5 +147,5 @@ section {
 
 .profile img {
   border-radius: 50%;
-  width: 40px;
+  width: 35px;
 }
