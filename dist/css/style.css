@@ -59,7 +59,7 @@ section {
 @media (min-width: 1440px) {
   section {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 350px);
+    grid-template-rows: repeat(2, 270px);
     padding: 10rem 6rem;
   }
 }
@@ -67,6 +67,12 @@ section {
 .card {
   padding: 2.1875rem;
   border-radius: 1rem;
+}
+
+@media (min-width: 1440px) {
+  .card {
+    padding: 1.5625rem;
+  }
 }
 
 .card--violet {
@@ -132,6 +138,7 @@ section {
 
 .blockquote {
   opacity: 70%;
+  font-size: 0.6875rem;
 }
 
 /* Profile */
@@ -158,5 +165,5 @@ section {
 
 .profile img {
   border-radius: 50%;
-  width: 35px;
+  width: 30px;
 }

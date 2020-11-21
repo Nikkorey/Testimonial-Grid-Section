@@ -57,13 +57,17 @@ section {
 
   @media #{(min-width: 1440px)} {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 350px);
+    grid-template-rows: repeat(2, 270px);
     padding: 10rem 6rem;
   }
 }
 .card {
   padding: 2.1875rem;
   border-radius: 1rem;
+
+  @media #{(min-width: 1440px)} {
+    padding: 1.5625rem;
+  }
 
   &--violet {
     background-color: var(--clr-secondary);
@@ -119,6 +123,7 @@ section {
 
 .blockquote {
   opacity: 70%;
+  font-size: 0.6875rem;
 
   // @media #{(min-width: 1024px)} {
   //   font-size: 0.875rem;
@@ -147,5 +152,5 @@ section {
 
 .profile img {
   border-radius: 50%;
-  width: 35px;
+  width: 30px;
 }
